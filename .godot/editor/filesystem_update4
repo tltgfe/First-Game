@@ -7,3 +7,5 @@ res://scenes/slime.tscn
 res://scripts/slime.gd
 res://scripts/killzone.gd
 res://scripts/player.gd
+res://scripts/game_manager.gd
+res://scripts/coin.gd
