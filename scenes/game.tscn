@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://cm7l7r3lvhkko"]
+[gd_scene load_steps=14 format=3 uid="uid://cm7l7r3lvhkko"]
 
 [ext_resource type="Texture2D" uid="uid://dhe4p4nkjakjw" path="res://assets/sprites/world_tileset.png" id="1_04rso"]
 [ext_resource type="PackedScene" uid="uid://de57seh55ar5g" path="res://scenes/player.tscn" id="1_8k22w"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://dwrkkc1q3n3qn" path="res://scenes/coin.tscn" id="4_gt3c3"]
 [ext_resource type="PackedScene" uid="uid://dfvjld88gk7aw" path="res://scenes/killzone.tscn" id="5_3d86s"]
 [ext_resource type="PackedScene" uid="uid://cb4xuxk115hpp" path="res://scenes/slime.tscn" id="6_x1f6d"]
+[ext_resource type="FontFile" uid="uid://cp16gxr1efhj" path="res://assets/fonts/PixelOperator8.ttf" id="7_ubn3j"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dkiwl"]
 texture = ExtResource("1_04rso")
@@ -516,3 +517,35 @@ position = Vector2(295, 57)
 
 [node name="Slime" parent="." instance=ExtResource("6_x1f6d")]
 position = Vector2(568, -16)
+
+[node name="Labels" type="Node" parent="."]
+
+[node name="Label" type="Label" parent="Labels"]
+offset_left = -137.0
+offset_top = 6.0
+offset_right = -41.0
+offset_bottom = 28.0
+theme_override_colors/font_color = Color(0.0117647, 0.14902, 0.34902, 1)
+theme_override_fonts/font = ExtResource("7_ubn3j")
+theme_override_font_sizes/font_size = 16
+text = "按空格跳跃。"
+
+[node name="Label2" type="Label" parent="Labels"]
+offset_left = 318.0
+offset_top = 24.0
+offset_right = 414.0
+offset_bottom = 46.0
+theme_override_colors/font_color = Color(0.0117647, 0.14902, 0.34902, 1)
+theme_override_fonts/font = ExtResource("7_ubn3j")
+theme_override_font_sizes/font_size = 16
+text = "掉落死亡。"
+
+[node name="Label3" type="Label" parent="Labels"]
+offset_left = 522.0
+offset_top = -72.0
+offset_right = 570.0
+offset_bottom = -50.0
+theme_override_colors/font_color = Color(0.0980392, 0.313726, 0.752941, 1)
+theme_override_fonts/font = ExtResource("7_ubn3j")
+theme_override_font_sizes/font_size = 16
+text = "怪物。"
