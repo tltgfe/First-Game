@@ -1,3 +1,4 @@
 res://scenes/game.tscn
 res://scenes/player.tscn
 res://scripts/player.gd
+res://scenes/plantform.tscn
