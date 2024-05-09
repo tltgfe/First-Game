@@ -1,8 +1,7 @@
 res://scenes/game.tscn
 res://scenes/player.tscn
-res://scripts/player.gd
 res://scenes/plantform.tscn
 res://scenes/coin.tscn
-res://scripts/coin.gd
-res://assets/sprites/killzone.gd
 res://scenes/killzone.tscn
+res://scenes/slime.tscn
+res://scripts/slime.gd
