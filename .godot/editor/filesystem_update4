@@ -6,3 +6,4 @@ res://scenes/killzone.tscn
 res://scenes/slime.tscn
 res://scripts/slime.gd
 res://scripts/killzone.gd
+res://scripts/player.gd
