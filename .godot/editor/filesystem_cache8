@@ -1,29 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1715213368
+::res://::1715215246
 icon.svg::CompressedTexture2D::5455131755020592485::1715212666::1715212683::1::::<><>::
-::res://First Game/::1715212941
-LICENSE.md::TextFile::-1::1715212941::0::1::::<><>::
-README.md::TextFile::-1::1715212941::0::1::::<><>::
-::res://resources/::1715213390
-::res://resources/brackeys_platformer_assets/::1715213382
-LICENSE & CREDITS.txt::TextFile::-1::1713540094::0::1::::<><>::
-::res://resources/brackeys_platformer_assets/fonts/::1709886248
-PixelOperator8-Bold.ttf::FontFile::4493565156551493700::1709819950::1715213398::1::::<><>::
-PixelOperator8.ttf::FontFile::172977706487853867::1709819950::1715213398::1::::<><>::
-::res://resources/brackeys_platformer_assets/music/::1710396724
-time_for_adventure.mp3::AudioStreamMP3::7853831687198619334::1710396512::1715213398::1::::<><>::
-::res://resources/brackeys_platformer_assets/sounds/::1710332396
-coin.wav::AudioStreamWAV::5157604199098637273::1710332290::1715213398::1::::<><>::
-explosion.wav::AudioStreamWAV::5840863157780090542::1710332262::1715213398::1::::<><>::
-hurt.wav::AudioStreamWAV::6284569936819077004::1710332050::1715213398::1::::<><>::
-jump.wav::AudioStreamWAV::4755866030336111352::1710332186::1715213398::1::::<><>::
-power_up.wav::AudioStreamWAV::7050960109031145750::1710332380::1715213398::1::::<><>::
-tap.wav::AudioStreamWAV::9104701435421806303::1710332064::1715213398::1::::<><>::
-::res://resources/brackeys_platformer_assets/sprites/::1710335578
-coin.png::CompressedTexture2D::3078927637893748053::1709890310::1715213398::1::::<><>::
-fruit.png::CompressedTexture2D::5449055837910875410::1709895722::1715213398::1::::<><>::
-knight.png::CompressedTexture2D::6489446344986827360::1709893820::1715213398::1::::<><>::
-platforms.png::CompressedTexture2D::2907230931048492890::1709895818::1715213398::1::::<><>::
-slime_green.png::CompressedTexture2D::4715554831258072193::1709891416::1715213398::1::::<><>::
-slime_purple.png::CompressedTexture2D::8336466500117955013::1709891840::1715213398::1::::<><>::
-world_tileset.png::CompressedTexture2D::7660630590986574592::1709896336::1715213398::1::::<><>::
+LICENSE.md::TextFile::-1::1715214850::0::1::::<><>::
+README.md::TextFile::-1::1715214083::0::1::::<><>::
+::res://assets/::1715215229
+::res://scripts/::1715215246
